@@ -1,7 +1,7 @@
-import './header.css'
+import style from './header.module.css'
 
 const Header = () => {
-    <header className="myHeader">
+    <header className={style.myHeader}>
         <nav>
             <ul>
                 <li className=''>Trips</li>

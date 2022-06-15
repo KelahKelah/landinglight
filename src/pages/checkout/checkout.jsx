@@ -1,6 +1,6 @@
 import Button from "../../components/button/button"
 import style from "./checkout.module.css"
-import { Card, ThumbnailCard, PayPal } from '../../assets/imges/index'
+import { Card, ThumbnailCard, PayPal } from '../../assets/images/index'
 
 const Checkout = () => {
     return(
@@ -48,7 +48,7 @@ const Checkout = () => {
                             <input className={style.myRadio} type="radio" />
                         </div>
                         <div>
-                            {/* <Button type="text" name="Add Card">Add Card</Button>  */}
+                            <Button type="text" name="Add Card" /> 
                             <button>Add Card</button>
                         </div>
                 
