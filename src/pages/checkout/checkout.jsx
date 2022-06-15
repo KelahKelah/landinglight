@@ -1,6 +1,6 @@
 import Button from "../../components/button/button"
 import style from "./checkout.module.css"
-import { Card, ThumbnailCard, PayPal } from '../../assets/images/index'
+import { Card, ThumbnailCard, PayPal, BlueCard } from '../../assets/images/index'
 
 const Checkout = () => {
     return(
@@ -17,7 +17,7 @@ const Checkout = () => {
                 </div>
                 <div>
                     <div className={style.iconCardWrapper}>
-                        <img className={style.iconCard} src={ThumbnailCard} alt="small card" />
+                        <img className={style.iconCard} src={BlueCard} alt="small card" />
                         <img className={style.iconCard} src={ThumbnailCard} alt="small card" />
                         <img className={style.paypalCard} src={PayPal} alt="pay pal" />
                     </div>
@@ -49,7 +49,6 @@ const Checkout = () => {
                         </div>
                         <div>
                             <Button type="text" name="Add Card" /> 
-                            <button>Add Card</button>
                         </div>
                 
                     </form>
@@ -64,10 +63,10 @@ const Checkout = () => {
 
             <div className={style.payment}>
                 <div>
-                    <button>Complete payment</button>
+                    <Button name="Complete payment" /> 
                 </div>
                 <div>
-                    <h3>#2556.64</h3>
+                    <h3>TOTAL: #2556.64</h3>
                 </div>
             </div>
         </>
