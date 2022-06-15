@@ -1,0 +1,9 @@
+.myBtn {
+    background-color: #4d4dff;
+    padding: 20px;
+    border-style: none;
+    border-radius: 5px;
+    width: 100%;
+    color: white;
+    font-weight: 600;
+}
