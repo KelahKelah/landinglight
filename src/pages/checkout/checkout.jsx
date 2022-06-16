@@ -1,4 +1,5 @@
 import Button from "../../components/button/button"
+import Input from "../../components/input/input"
 import style from "./checkout.module.css"
 import { Card, ThumbnailCard, PayPal, BlueCard } from '../../assets/images/index'
 
@@ -26,21 +27,21 @@ const Checkout = () => {
                         <div className={style.formInner}>
                             <div>
                                 <label className={style.myLabel}>Credit Card Number</label>
-                                <input className={style.myInput} type="text" placeholder="" />
+                                <Input type="text" placeholder="" />
                             </div>
                             <div>
                                 <label className={style.myLabel}>Expiration date</label>
-                                <input className={style.myInput} type="text" placeholder="" />
+                                <Input type="text" placeholder="" />
                             </div>
                         </div>
                         <div className={style.formInner} >
                             <div>
                                 <label className={style.myLabel}>Security code</label>
-                                <input className={style.myInput} type="text" placeholder="" />
+                                <Input type="text" placeholder="" />
                             </div>
                             <div>
                                 <label className={style.myLabel}>Postal Code</label>
-                                <input className={style.myInput} type="text" placeholder="" />
+                                <Input type="text" placeholder="" />
                             </div>
                         </div>
                             
@@ -57,7 +58,7 @@ const Checkout = () => {
 
             <div className={style.estimate}>
                 <div><h3>Subtotal</h3><h3>#2,497.00</h3></div>
-                <div className={style.tax}><h3>Estimated Tax</h3><h3>#119.64</h3></div>
+                <div className={style.tax}><h3>Estimated TAX</h3><h3>#119.64</h3></div>
                 <div><h3>Promotional Code: <span>Z4KXLM9A</span></h3><h3>#-60.00</h3></div>
             </div>
 

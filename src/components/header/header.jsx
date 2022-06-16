@@ -22,9 +22,9 @@ const Header = () => {
             <header className={style.myHeader}>
                 <nav>
                     <ul className={style.deskTopUl}>
-                        <li className={style.deskTopLi}>Trips</li>
-                        <li className={style.deskTopLi}>Recently viewed</li>
-                        <li className={style.deskTopLi}>Bookings</li>
+                        <li className={style.deskTopLi}>TRIPS</li>
+                        <li className={style.deskTopLi}>RECENTLY VIEWED</li>
+                        <li className={style.deskTopLi}>BOOKINGS</li>
                     </ul>
                 </nav>
                 <span><img className={style.avater} src={Avater} /></span>

@@ -11,8 +11,9 @@
 .deskTopLi {
     display: inline;
     padding: 0 15px;
-    font-size: 1.2rem;
-    font-weight: 600;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #4d4d4d;
 }
 .mobileUl {
     list-style: none;
@@ -20,12 +21,13 @@
 }
 .mobileLi {
     padding: 5px 0;
-    border-top: #f2f2f2 solid 1px;
+    border-top: #f2f2f2 solid 2px;
 }
 .avater {
     width: 40px;
     height: 40px;
     border-radius: 50%;
+    object-fit: cover;
 }
 .handburger {
     display: none;
